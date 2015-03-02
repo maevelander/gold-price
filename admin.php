@@ -5,7 +5,7 @@ Plugin Name: Gold Price Plugin
 Plugin URI: http://www.wordpress.org/extend/plugins/gold-price
 Description: A really simple plugin that displays the latest prices of Gold, Platinum, Silver and Palladium in various currencies. The prices are auto updated every 15 minutes Monday-Friday
 Author: Enigma Digital
-Version: 1.3
+Version: 1.3.1
 Author URI: http://www.enigmaweb.com.au
 */
 error_reporting(0);
