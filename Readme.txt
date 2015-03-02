@@ -3,7 +3,7 @@ Contributors: EnigmaWeb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEJ9HFWJ94BG4
 Tags: Gold price, commodities, gold, silver, gold widget, gold price live, live gold price
 Requires at least: 3.1
-Tested up to: 3.9
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,8 +21,8 @@ Use Gold Price plugin to display latest prices of Gold, Platinum, Silver and Pal
 *	Choose currency
 *	Can do grams or ounces 
 *	Simple, light-weight, and looks good!
-*   Easy to customise with CSS
-*   Works in all major browsers - I9+, Opera, Safari, Firefox, Chrome
+* Easy to customise with CSS
+* Works in all major browsers - I9+, Opera, Safari, Firefox, Chrome
 
 = Demo =
 
@@ -67,6 +67,9 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 == Changelog ==
 
+= 1.3.1 =
+* Updated feed URL filepaths to https
+
 = 1.3 =
 * Added support for more currencies
 
@@ -81,6 +84,9 @@ If you've tried all the obvious stuff and it's still not working please request 
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+* Updated feed URL filepaths to https
 
 = 1.3 =
 * Added support for more currencies
