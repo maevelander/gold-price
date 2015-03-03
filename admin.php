@@ -5,7 +5,7 @@ Plugin Name: Gold Price Plugin
 Plugin URI: http://www.wordpress.org/extend/plugins/gold-price
 Description: A really simple plugin that displays the latest prices of Gold, Platinum, Silver and Palladium in various currencies. The prices are auto updated every 15 minutes Monday-Friday
 Author: Enigma Digital
-Version: 1.3
+Version: 1.3.1
 Author URI: http://www.enigmaweb.com.au
 */
 error_reporting(0);
@@ -68,9 +68,9 @@ function gold_price_shortcode(){
 	$widget_design		=	get_option('widget_design');
 	
 	if($measurement == "grams")
-		$fileGold = "http://enigmaplugins.com/get_xml/gold.xml";
+		$fileGold = "https://enigmaplugins.com/get_xml/gold.xml";
 	else
-		$fileGold = "http://enigmaplugins.com/get_xml/goldounces.xml";
+		$fileGold = "https://enigmaplugins.com/get_xml/goldounces.xml";
 	$contentsGold .= '<?xml version="1.0" encoding="utf-8" ?>
 	<gold>';
 	$contentsGold .= file_get_contents($fileGold); 
@@ -84,9 +84,9 @@ function gold_price_shortcode(){
 	
 	//
 	if($measurement == "grams")
-		$filesilver = "http://enigmaplugins.com/get_xml/silver.xml";
+		$filesilver = "https://enigmaplugins.com/get_xml/silver.xml";
 	else
-		$filesilver = "http://enigmaplugins.com/get_xml/silverounces.xml";
+		$filesilver = "https://enigmaplugins.com/get_xml/silverounces.xml";
 	$contentssilver .= '<?xml version="1.0" encoding="utf-8" ?>
 	<silver>';
 	$contentssilver .= file_get_contents($filesilver); 
@@ -102,9 +102,9 @@ function gold_price_shortcode(){
 	
 	//
 	if($measurement == "grams")
-		$fileplatinum = "http://enigmaplugins.com/get_xml/platinum.xml";
+		$fileplatinum = "https://enigmaplugins.com/get_xml/platinum.xml";
 	else
-		$fileplatinum = "http://enigmaplugins.com/get_xml/platinumounces.xml";
+		$fileplatinum = "https://enigmaplugins.com/get_xml/platinumounces.xml";
 	$contentsplatinum .= '<?xml version="1.0" encoding="utf-8" ?>
 	<platinum>';
 	$contentsplatinum .= file_get_contents($fileplatinum);
@@ -120,9 +120,9 @@ function gold_price_shortcode(){
 	
 	//
 	if($measurement == "grams")
-		$filepalladium = "http://enigmaplugins.com/get_xml/palladium.xml";
+		$filepalladium = "https://enigmaplugins.com/get_xml/palladium.xml";
 	else
-		$filepalladium = "http://enigmaplugins.com/get_xml/palladiumounces.xml";
+		$filepalladium = "https://enigmaplugins.com/get_xml/palladiumounces.xml";
 	$contentspalladium .= '<?xml version="1.0" encoding="utf-8" ?>
 	<palladium>';
 	$contentspalladium .= file_get_contents($filepalladium); 
