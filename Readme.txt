@@ -3,7 +3,7 @@ Contributors: EnigmaWeb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEJ9HFWJ94BG4
 Tags: Gold price, commodities, gold, silver, gold widget, gold price live, live gold price
 Requires at least: 3.1
-Tested up to: 4.1
+Tested up to: 4.6.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,8 +21,8 @@ Use Gold Price plugin to display latest prices of Gold, Platinum, Silver and Pal
 *	Choose currency
 *	Can do grams or ounces 
 *	Simple, light-weight, and looks good!
-* Easy to customise with CSS
-* Works in all major browsers - I9+, Opera, Safari, Firefox, Chrome
+*	Easy to customise with CSS
+*	Works in all major browsers - I9+, Opera, Safari, Firefox, Chrome
 
 = Demo =
 
@@ -36,6 +36,14 @@ Use Gold Price plugin to display latest prices of Gold, Platinum, Silver and Pal
 1. Add to any page using shortcode `[gold-price]`
  
 == Frequently Asked Questions ==
+
+= My prices read 0.00 please help!? =
+First, check the demo at http://demo.enigmaweb.com.au/gold-price/  Does it work?
+
+If yes, (demo site also shows zeros) then there's something wrong with the feed... Open a support ticket to notify me and I'll fix it. 
+
+If no (the demo site is working correctly) then it shows the plugin is working fine, feeds are fine, and it's something on your site or server environment preventing access to the feed.  Follow standard WordPress troubleshooting steps to try to identify the error.
+
 
 = How can I use this in a widget? =
 Just place the shortcode into a text widget. If that doesn't work (it just renders [gold-price] in text) then that means your theme isn't 'widgetized' which you can fix easily by adding 1 tiny piece of code to your theme functions.php:
